@@ -1,4 +1,4 @@
 int root(int x) {
-    if (par[x] == -1) return x; // x が根の場合は x を直接返す
-    else return par[x] = root(par[x]); // x の親 par[x] を根に設定する
+    if (par[x] == -1) return x; // x가 루트라면 x를 반환
+    else return par[x] = root(par[x]); // x의 부모 par[x]를 루트에 설정
 }

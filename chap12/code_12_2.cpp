@@ -20,7 +20,7 @@ void MergeSort(vector<int> &a, int left, int right) {
     for (int i = right - 1; i >= mid; --i) buf.push_back(a[i]);
 
     // 병합하기
-    int index_left = 0;                    // 왼쪽 인덱스左側の添字
+    int index_left = 0;                    // 왼쪽 인덱스
     int index_right = (int)buf.size() - 1; // 오른쪽 인덱스
     for (int i = left; i < right; ++i) {
         // 왼쪽 채용

@@ -4,7 +4,7 @@ using namespace std;
 
 const int MAX = 100000; // 배열에 100000 미만 값만 존재한다고 가정
 
-// バケットソート
+// 버킷 정렬
 void BucketSort(vector<int> &a) {
     int N = (int)a.size();
 
