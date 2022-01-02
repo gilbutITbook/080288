@@ -3,7 +3,7 @@
 using namespace std;
 
 // 배열 a 구간 [left, right)를 정렬
-// [left, right) は，left, left+1, ..., right-1번째를 뜻함
+// [left, right) 는，left, left+1, ..., right-1번째를 뜻함
 void QuickSort(vector<int> &a, int left, int right) {
     if (right - left <= 1) return;
 
